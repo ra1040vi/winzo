@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Brand palette sampled from the Wingo rider artwork: a vivid indigo-violet
-/// core, warmed by the orange / magenta / teal accents of the parcel handoff
-/// illustration.
 class AppColors {
   AppColors._();
 
