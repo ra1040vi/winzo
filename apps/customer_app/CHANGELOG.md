@@ -1,0 +1,1 @@
+- Added splash screen [#1] https://github.com/ra1040vi/winzo/issues/1
