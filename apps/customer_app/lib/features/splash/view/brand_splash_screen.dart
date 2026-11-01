@@ -1,5 +1,6 @@
 import 'dart:math' as math;
 
+import 'package:customer_app/features/auth/welcome_screen.dart';
 import 'package:customer_app/shared/constants/app_assets.dart';
 import 'package:customer_app/shared/widgets/brand_gradient_background.dart';
 import 'package:customer_app/shared/widgets/brand_mark.dart';
@@ -39,7 +40,7 @@ class _BrandSplashScreenState extends State<BrandSplashScreen>
           MaterialPageRoute(
             builder: (context) {
               // return const WelcomeScreen();
-              return const Placeholder();
+              return const WelcomeScreen(); // Placeholder for the next screen after the splash
             },
           ),
         );
