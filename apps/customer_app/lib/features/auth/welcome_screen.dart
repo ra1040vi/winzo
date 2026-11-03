@@ -1,6 +1,7 @@
 import 'dart:math' as math;
 
 import 'package:customer_app/core/theme/app_colors.dart';
+import 'package:customer_app/features/auth/view/sign_in_screen.dart';
 import 'package:customer_app/shared/constants/app_assets.dart';
 import 'package:customer_app/shared/widgets/aurora_backdrop.dart';
 import 'package:customer_app/shared/widgets/brand_mark.dart';
@@ -43,7 +44,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
   void _openSignIn() {
     Navigator.of(
       context,
-    ).push(MaterialPageRoute<void>(builder: (context) => const Placeholder()));
+    ).push(MaterialPageRoute<void>(builder: (context) => const SignInScreen()));
   }
 
   @override
